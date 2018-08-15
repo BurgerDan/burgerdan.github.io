@@ -10,5 +10,5 @@ h1 {
   font-style: italic;
 }
 p {
- font-stle: normal;
+ font-style: normal;
 }
