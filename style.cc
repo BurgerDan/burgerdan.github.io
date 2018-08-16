@@ -1,10 +1,9 @@
 
 body {
- background-color: black; 
+ background-color: black;
+ color: white;
 }
-body {
- font-color: white; 
-}
+
 h1 {
   font-size: large;
   font-style: italic;
