@@ -1,11 +1,10 @@
-
 body {
  background-color: black;
  color: white;
 }
 
 h1 {
-  font-size: large;
+  font-size: 3em;
   font-style: italic;
 }
 p {
