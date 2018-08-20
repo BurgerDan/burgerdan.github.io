@@ -1,5 +1,7 @@
 {
   "username":"burgerdan",
-  "goals": ["goal1": {"Learn HTML and Javascript", "goal2":{"Learn how to use NuGet packages"},
-    "goal3": {"Be able to build a full webpage"}, "goal4": {"Convince Professor Wright that w3schools isn't as bad as he says"}]
+  "goals": ["goal1": {"field":"Learn HTML and Javascript", "confidence": 10}, 
+            "goal2":{"field":"Learn how to use NuGet packages", "confidence": 2},
+            "goal3": {"field":"Be able to build a full webpage", "onfidence":8},
+            "goal4": {"field":"Convince Professor Wright that w3schools isn't as bad as he says"}, "confidence": 1]
 }
