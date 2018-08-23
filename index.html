@@ -1,19 +1,18 @@
-<!doctype html>
-<html>
-  <head>
-    <title> CSC 425 github page </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <h1> dyoung24 </h1>
-    <p>
-      This simple web page is to write down my goals for this <a href="https://msucsis.github.io/csc425/"> CSC-425 </a>
-    </p>
-    <ul>
-      <li> Learn HTML and Javascript </li>
-      <li> Learn how to use NuGet packages </li>
-      <li> Be able to build a full webpage </li>
-      <li> Convince Professor Wright that w3schools isn't as bad as he says </li>
-    </ul>
-  </body>
-</html>
+---
+title: Metalman stuff
+layout: main
+---
+<p>He punches Demons and stuff!</p>
+{% for post in site.posts%}
+	<article>
+		<h2> 
+			<a href="{{site.baseurl}}{{post.url}}">
+				{{post.title}}
+			</a>
+		</h2>
+		<p>
+		{{post.excerpt}}
+		</p>
+		<p><a href="{{site.baseurl}}{{post.url}}">Continue to read?</p>
+	</article>
+{%endfor%}
