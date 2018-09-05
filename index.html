@@ -2,11 +2,9 @@
 title: Dan's Blog
 layout: main
 ---
-<p> Can I just put stuff here and it will stay? </p>
+<p> So this is my Template </p>
 {% for post in site.posts%}
   <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
-    <p>
       {{post.excerpt}}
-    </p>
    <p><a href="{{site.baseurl}}{{post.url}}">Continue to read?</p>
 {%endfor%}
