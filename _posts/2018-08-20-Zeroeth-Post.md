@@ -4,5 +4,5 @@ layout: post
 ---
 
 <p>
-  God I hope I did this right.
+  Initial setup, will remove later.
 </p>
